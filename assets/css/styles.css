@@ -126,12 +126,12 @@ img {
 }
 
 
-/*========== Variables Dark theme ==========*/
+/*========== Variables light theme ==========*/
 body.light-theme {
   --title-color: hsl(var(--second-hue), 15%, 15%);
   --text-color: hsl(var(--second-hue), 8%, 35%);
   --body-color: hsl(var(--second-hue), 100%, 99%);
-  --container-color: white;
+  --container-color: #fff;
 }
 
 
@@ -915,9 +915,8 @@ body.light-theme {
   border-radius: .5rem;
 }
 
-::-webkit-slider-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background-color: hsla(var(--second-hue), 8%, 20%);
-
 }
 
 

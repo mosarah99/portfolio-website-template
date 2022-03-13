@@ -100,7 +100,7 @@ window.addEventListener('scroll', scrollActive)
 /*=============== LIGHT DARK THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')
 const lightTheme = 'light-theme'
-const iconTheme = 'bx-sun'
+const iconTheme = 'bxs-sun'
 
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem('selected-theme')
@@ -114,7 +114,7 @@ const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'bx bxs
 if (selectedTheme) {
   // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the light
   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](lightTheme)
-  themeButton.classList[selectedIcon === 'bx bx-moon' ? 'add' : 'remove'](iconTheme)
+  themeButton.classList[selectedIcon === 'bx bxs-moon' ? 'add' : 'remove'](iconTheme)
 }
 
 // Activate / deactivate the theme manually with the button
