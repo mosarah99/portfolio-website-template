@@ -802,7 +802,7 @@ body.light-theme {
 }
 
 .contact__button:hover .contact__button-icon {
-  transform: translate(.25rem);
+  transform: translateX(.25rem);
 }
 
 .contact__button-icon {
@@ -837,7 +837,7 @@ body.light-theme {
   left: 1.25rem;
   font-size: var(--smaller-font-size);
   padding: 0.25rem;
-  border-color: var(--body-color);
+  background-color: var(--body-color);
   z-index: 10;
 }
 
