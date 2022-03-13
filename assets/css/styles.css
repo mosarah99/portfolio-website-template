@@ -212,7 +212,7 @@ body.light-theme {
 }
 
 .section {
-  padding: 4.5rem 0rem 1rem;
+  padding: 4.5rem 0 1rem;
 }
 
 .section__title, 
@@ -289,15 +289,15 @@ body.light-theme {
 .active-link {
   background: linear-gradient(180deg,
               hsla(var(--first-hue), var(--sat), var(--lig), 1),            
-              hsla(var(--first-hue), var(--sat), var(--lig), .2),            
-              ); 
+              hsla(var(--first-hue), var(--sat), var(--lig), .2)      
+            ); 
   box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
   color: var(--title-color);
 }
 
 /* Change background header */
 .scroll-header {
-  box-shadow: 0 4px 4px hsla(0, 0%, 4%, .3) #000;
+  box-shadow: 0 4px 4px hsla(0, 0%, 4%, .3);
   
 }
 
@@ -309,13 +309,13 @@ body.light-theme {
   padding-top: 2rem;
 }
 
-.home__date {
+.home__data {
   text-align: center;
 }
 
 .home__greeting,
 .home__education {
-  font-style: var(--small-font-size);
+  font-size: var(--small-font-size);
   font-weight: var(--font-medium);
 }
 
@@ -344,7 +344,7 @@ body.light-theme {
   height: 293px;
   background: linear-gradient(180deg,
               hsla(var(--first-hue), var(--sat), var(--lig), 1),
-              hsla(var(--first-hue), var(--sat), var(--lig), .2),
+              hsla(var(--first-hue), var(--sat), var(--lig), .2)
             );
   border-radius: 10rem 10rem 1rem 1rem;
   display: flex;
@@ -385,7 +385,7 @@ body.light-theme {
 
 .home__social-link:hover {
   background-color: var(--first-color);
-  color: white;
+  color: #fff;
 }
 
 .home__social::after {
@@ -410,7 +410,7 @@ body.light-theme {
 }
 
 .home__scroll-name {
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
   transform: rotate(-90deg);
 }
 
@@ -515,6 +515,7 @@ body.light-theme {
   align-content: flex-start;
   row-gap: 1rem;
 }
+
 .skills__data {
   display: flex;
   column-gap: .5rem;
@@ -540,7 +541,7 @@ body.light-theme {
 .services__container {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  padding-top: 1rem;
+  padding-top: 1rem;   
 }
 
 .services__card {
@@ -564,7 +565,7 @@ body.light-theme {
 }
 
 .services__button:hover .services__icon {
-  transform: translate(.25rem);
+  transform: translateX(.25rem);
 }
 
 .services__icon {
@@ -590,7 +591,7 @@ body.light-theme {
 .services__modal-content {
   position: relative;
   background-color: var(--body-color);
-  padding: 4.5rem 1.5rem 2rem;
+  padding: 4.5rem 1.5rem 2.5rem;
   border-radius: 1.5rem;
 }
 
@@ -697,17 +698,13 @@ body.light-theme {
 }
 
 .work__button:hover .work__icon {
-  transform: translate(.25rem);
+  transform: translateX(.25rem);
 }
 
 .work__icon {
   font-size: 1rem;
   transition: .4s;
 }
-
-
-
-
 
 /* Active item work*/
 .active-work {

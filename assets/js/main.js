@@ -9,8 +9,8 @@ window.addEventListener('scroll', scrollHeader)
 
 /*=============== SERVICES MODAL ===============*/
 const modalViews = document.querySelectorAll('.services__modal'),
-        modalBtns = document.querySelectorAll('.services__button'),
-        modalClose = document.querySelectorAll('.services__modal-close')
+      modalBtns = document.querySelectorAll('.services__button'),
+      modalClose = document.querySelectorAll('.services__modal-close')
 
 let modal = function(modalClick) {
     modalViews[modalClick].classList.add('active-modal')
@@ -65,15 +65,14 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
     },
     
     breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
+        576: {
+            slidesPerView: 2,
         },
         768: {
-          slidesPerView: 2,
-          spaceBetween: 48,
+            slidesPerView: 2,
+            spaceBetween: 48,
         },
-      },
+    },
 });
 
 
