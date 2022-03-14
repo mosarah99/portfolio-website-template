@@ -140,7 +140,7 @@ body.light-theme {
     the website, in light theme
 ==========*/
 .light-theme .scroll-header {
-  box-shadow: 0 2px 4px hsla(0, 0%, 1%, .1);
+  box-shadow: 0 2px 4px hsla(0, 0%, 1%, 0.1);
 }
 
 .light-theme .nav__menu {
@@ -970,7 +970,7 @@ body.light-theme {
     width: 328px;
     left: 0;
     right: 0;
-    margin: 0 auto;
+    margin: 0 auto; /* Use the same for small devices */
   }
 
   .about__info {
@@ -1008,7 +1008,7 @@ body.light-theme {
   }
 
   .contact__info {
-    grid-template-columns: repeat(300px);
+    grid-template-columns: 300px;
     justify-content: center;
   }
   .contact__form {
@@ -1028,7 +1028,7 @@ body.light-theme {
     justify-content: center;
     column-gap: 3rem;
   }
-}
+} 
 
 
 /* For large devices */
