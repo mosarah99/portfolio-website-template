@@ -1014,11 +1014,11 @@ body.light-theme {
   .contact__form {
     width: 360px;
     margin: 0 auto;
-  }
+  } 
 
 }
 
-@media screen and (min_width:767px) {
+@media screen and (min-width:767px) {
   .work__container {
     grid-template-columns: repeat(2, max-content);
   }
