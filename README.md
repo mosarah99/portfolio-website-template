@@ -10,6 +10,7 @@ A templated portfolio website for developers.
 - [Tools and Languages](#tools-and-languages)
 - [Authors](#authors)
 - [Version History](#version-history)
+    - [ver_0,2](#ver02)
     - [ver_0.1](#ver01)
 - [License](#license)
 - [Attribution and Thanks](#attribution-and-thanks)
@@ -51,6 +52,9 @@ git clone https://github.com/mosarah99/protfolio-website-template.git
 - [mosarah99](https://github.com/mosarah99)
 
 ## Version History
+
+### ver_0.2
+- added jquery framework support
 
 ### ver_0.1
 - initial release
