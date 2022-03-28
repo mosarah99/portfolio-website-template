@@ -1,22 +1,3 @@
-<style>
-    .recommended {
-        color:orange;
-        font-weight:bold;
-    }
-
-    .warning {
-        color:red;
-        font-weight:bold;
-    }
-
-    .attention {
-        font-weight: bold;
-    }
-
-    .img {
-        border-radius: 5px;
-    }
-</style>
 
 # Portfolio Website Template 
 A templated portfolio website for developers. 
@@ -46,10 +27,10 @@ A templated portfolio website for developers.
 
 ## Getting Started
 Download and install any HTML5 rendering web browser (Chrome/Firefox/Edge) for better view 
-<span class="recommended">[Recommended]</span>
+<span style="color:orange;font-weight:bold;">[Recommended]</span>
 
 ### Clone the project
-<span class="attention">You need to have [git](https://git-scm.com/downloads) installed on your machine.</span>
+<span style="font-weight: bold;">You need to have [git](https://git-scm.com/downloads) installed on your machine.</span>
 ```bash
 git clone https://github.com/mosarah99/protfolio-website-template.git
 ```
