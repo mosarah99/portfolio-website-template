@@ -44,6 +44,7 @@ git clone https://github.com/mosarah99/protfolio-website-template.git
 ## Tools and Languages
 - HTML, CSS, and JavaScript
 - git
+- jQuery
 
 
 ## Authors
