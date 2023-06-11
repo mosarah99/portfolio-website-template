@@ -65,8 +65,8 @@ This project is protected under GPLv3 License. Read the license [here](/LICENSE)
 
 ## Attribution and Thanks
 - [Responsive Portfolio Website Ansel](https://github.com/bedimcode/responsive-portfolio-website-Ansel) by [bedimcode](https://github.com/bedimcode)
-- [Mixitup](Mixitup) by Kunkalabs
-- [Swiper](Mixitup) by [nolimits4web](https://github.com/nolimits4web)
+- [Mixitup](https://www.kunkalabs.com/mixitup/) by [Kunkalabs](https://www.kunkalabs.com/)
+- [Swiper](https://github.com/nolimits4web/swiper) by [nolimits4web](https://github.com/nolimits4web)
 - [ScrollReveal](https://scrollrevealjs.org/) by [jlmakes](https://github.com/jlmakes)
 
 
